@@ -104,7 +104,7 @@
 #scrollbutton-up[part="scrollbutton-up"]:not(.menupopup-scrollbutton),
 #scrollbutton-down[part="scrollbutton-down"]:not(.menupopup-scrollbutton)
 {
-	margin-top: calc(var(--tab-shadow-max-size) + 3px) !important;
+	margin-top: 7px !important;
 	margin-bottom: 1px !important;
 }
 
@@ -521,6 +521,10 @@
 #tabbrowser-tabs #tabs-newtab-button
 {
 	margin-inline-start: 6px !important;
+	width: 32px !important;
+	min-width: 32px !important;
+	max-width: 32px !important;
+	box-sizing: border-box !important;
 }
 
 #tabbrowser-tabs[overflow] .tabbrowser-arrowscrollbox

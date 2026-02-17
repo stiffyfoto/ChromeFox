@@ -97,8 +97,8 @@
 
 #navigator-toolbox :-moz-any(.toolbarbutton-1, .scrollbutton-up, .scrollbutton-down),
 /* no ::part workaround - may have side effects */
-.#scrollbutton-up[part="scrollbutton-up"]:not(.menupopup-scrollbutton),
-.#scrollbutton-down[part="scrollbutton-down"]:not(.menupopup-scrollbutton)
+#scrollbutton-up[part="scrollbutton-up"]:not(.menupopup-scrollbutton),
+#scrollbutton-down[part="scrollbutton-down"]:not(.menupopup-scrollbutton)
 {
 	max-height: 32px !important;
 	height: 32px !important;

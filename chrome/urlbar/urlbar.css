@@ -234,6 +234,12 @@
 	right: 0 !important;
 }
 
+/* prevent Firefox breakout expansion */
+#urlbar[breakout][breakout-extend]
+{
+	position: relative !important;
+}
+
 #urlbar[open],
 #searchbar[open]
 {
