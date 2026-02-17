@@ -136,7 +136,7 @@
 #titlebar,
 #tabbrowser-tabs
 {
- 	--tab-min-height: 34px !important;
+ 	--tab-min-height: 32px !important;
 }
 
 @supports -moz-bool-pref("materialFox.reduceTabOverflow")
